@@ -2,12 +2,7 @@ pandas
 numpy
 ipython-sql
 selenium
-chromedriver-autoinstaller
 tqdm
 Flask
-Flask-Mail
-sqlite3
-threading
 yagmail
 Flask-APScheduler
-webdriver_manager

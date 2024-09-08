@@ -12,7 +12,13 @@ import yagmail
 from config import email_config
 from flask_apscheduler import APScheduler
 
-
+#Create a config file in the same folder and put the configuration in this format:
+'''
+email_config = {
+    'user': '',
+    'password': ''
+}
+'''
 yag = yagmail.SMTP(email_config['user'], email_config['password'])
 
 
